@@ -1,6 +1,6 @@
 [package]
 name = "clap-tree"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A personal helper crate to help me build CLIs. I do not recommend others to use it."
 license = "MIT"

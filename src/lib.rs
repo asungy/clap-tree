@@ -20,6 +20,8 @@ impl std::fmt::Display for TreeError {
     }
 }
 
+impl std::error::Error for TreeError {}
+
 /// Defines the type of function to be call before a node's `f` function (if it
 /// exists).
 pub type NodePreFn<P> = Box<dyn FnOnce(&clap::ArgMatches, Option<P>) -> Option<P>>;
