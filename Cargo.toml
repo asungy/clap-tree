@@ -2,6 +2,13 @@
 name = "clap-tree"
 version = "0.1.0"
 edition = "2024"
+description = "A personal helper crate to help me build CLIs. I do not recommend others to use it."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/asungy/clap-tree"
+keywords = []
+categories = []
+exclude = ["examples/"]
 
 [dependencies]
 clap = { version = "4.5.53", features = ["unicode"] }
